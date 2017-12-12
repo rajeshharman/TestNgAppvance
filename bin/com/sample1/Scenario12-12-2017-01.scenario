@@ -27,7 +27,7 @@
     <versions/>
     <categorization/>
     <include>REPOSITORY/TestNgAppvance/testng.xml</include>
-    <links/>
+    <links>    </links>
   </basics>
   <resources>
     <resource name="TestNgAppvance.jar" type="jar" path="{scenario}/TestNgAppvance.jar"/>
@@ -128,7 +128,7 @@
     </controller>
     <testcase name="Testcase1">
       <test>
-        <run name="TestScript1" langtype="testng" resource="TestNgAppvance.jar"/>
+        <run name="TestScript1" langtype="testng" resource="TestNgAppvance.jar" method="testng"/>
       </test>
     </testcase>
     <assertsuite xmlns="www.pushtotest.com/tm5" name="Optional"/>
