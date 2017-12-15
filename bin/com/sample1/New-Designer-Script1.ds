@@ -1,0 +1,192 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testcase name='New-Designer-Script1' description='' author='' version=''>
+
+<metainfo>
+</metainfo>
+<accessorprefs values=""/>
+<dpl filename="" exectype="" errorhandling=""/>
+
+<step action="navigateTo" value="&quot;http://www.facebook.com&quot;" type="web" desc='' isThinkTime='false' isCommented='false' sequence="0">
+	<dialect type="sahi">
+		<accessor type="navigateTo" value='' selected="true"/>
+	</dialect>
+	<dialect type="selenium">
+		<accessor attribute='' value='' selected="true"/>
+	</dialect>
+</step>
+
+
+
+<step action="setValue" value="&quot;765765757&quot;" type="web" desc='' isThinkTime='false' isCommented='false' sequence="1">
+	<dialect type="sahi">
+		<accessor type="setValue" value="password(&quot;pass&quot;)" selected="true"/>
+		<accessor type="setValue" value="password(&quot;pass&quot;)" selected="false"/>
+		<accessor type="setValue" value="password(0)" selected="false"/>
+		<accessor type="setValue" value="password(&quot;inputtext&quot;)" selected="false"/>
+	</dialect>
+	<dialect type="selenium">
+		<accessor attribute='' value="&quot;//input[@id='pass']&quot;" selected="true"/>
+		<accessor attribute='' value="&quot;//form[@id='login_form']/table/tbody/tr[2]/td[2]/input&quot;" selected="false"/>
+		<accessor attribute='' value="&quot;//td[2]/input&quot;" selected="false"/>
+	</dialect>
+</step>
+
+
+
+<step action="click" value='' type="web" desc='' isThinkTime='false' isCommented='false' sequence="2">
+	<dialect type="sahi">
+		<accessor type="click" value="submit(&quot;Log In&quot;)" selected="true"/>
+		<accessor type="click" value="submit(&quot;u_0_2&quot;)" selected="false"/>
+		<accessor type="click" value="submit(0)" selected="false"/>
+	</dialect>
+	<dialect type="selenium">
+		<accessor attribute='' value="&quot;//input[@id='u_0_2']&quot;" selected="true"/>
+		<accessor attribute='' value="&quot;//label[@id='loginbutton']/input&quot;" selected="false"/>
+		<accessor attribute='' value="&quot;//label/input&quot;" selected="false"/>
+	</dialect>
+</step>
+
+
+
+<step action="rightClick" value='' type="web" desc='' isThinkTime='false' isCommented='false' sequence="3">
+	<dialect type="sahi">
+		<accessor type="rightClick" value="div(&quot;Log in to FacebookLog InRecover Your AccountSign up for Facebook&quot;)" selected="true"/>
+		<accessor type="rightClick" value="div(24)" selected="false"/>
+		<accessor type="rightClick" value="div(&quot;_4-u2 _1w1t _4-u8 _52jv&quot;)" selected="false"/>
+	</dialect>
+	<dialect type="selenium">
+		<accessor attribute='' value="&quot;//div[@id='content']/div/div&quot;" selected="true"/>
+		<accessor attribute='' value="&quot;//div[3]/div[1]/div/div&quot;" selected="false"/>
+	</dialect>
+</step>
+
+
+
+<step action="click" value='' type="web" desc='' isThinkTime='false' isCommented='false' sequence="4">
+	<dialect type="sahi">
+		<accessor type="click" value="div(&quot;The email address that you've entered doesn't match any account. Sign up for an account.&quot;)" selected="true"/>
+		<accessor type="click" value="div(43)" selected="false"/>
+		<accessor type="click" value="div(&quot;_4rbf _53ij&quot;)" selected="false"/>
+	</dialect>
+	<dialect type="selenium">
+		<accessor attribute='' value="&quot;//div[@id='globalContainer']/div[3]/div/div/div&quot;" selected="true"/>
+		<accessor attribute='' value="&quot;//div[3]/div[3]/div/div/div&quot;" selected="false"/>
+	</dialect>
+</step>
+
+
+
+<step action="assertExists" value='' type="web" desc='' isThinkTime='false' isCommented='false' sequence="5">
+	<dialect type="sahi">
+		<accessor type="assertExists" value="div(&quot;The email address that you've entered doesn't match any account. Sign up for an account.&quot;)" selected="true"/>
+		<accessor type="assertExists" value="div(43)" selected="false"/>
+		<accessor type="assertExists" value="div(&quot;_4rbf _53ij&quot;)" selected="false"/>
+	</dialect>
+	<dialect type="selenium">
+		<accessor attribute='' value="&quot;//div[@id='globalContainer']/div[3]/div/div/div&quot;" selected="false"/>
+		<accessor attribute='' value="&quot;//div[3]/div[3]/div/div/div&quot;" selected="false"/>
+	</dialect>
+	<dialect type="flextesting">
+		<accessor type="assertExists" attribute='' value='' selected="false"/>
+	</dialect>
+</step>
+
+
+
+<step action="click" value='' type="web" desc='' isThinkTime='false' isCommented='false' sequence="6">
+	<dialect type="sahi">
+		<accessor type="click" value="link(&quot;Sign up for Facebook&quot;)" selected="true"/>
+		<accessor type="click" value="link(&quot;reg-link&quot;)" selected="false"/>
+		<accessor type="click" value="link(5)" selected="false"/>
+	</dialect>
+	<dialect type="selenium">
+		<accessor attribute='' value="&quot;//a[contains(text(),'Sign up for Facebook')]&quot;" selected="true"/>
+		<accessor attribute='' value="&quot;//a[@id='reg-link']&quot;" selected="false"/>
+		<accessor attribute='' value="&quot;//div[@id='login_link']/div[2]/a&quot;" selected="false"/>
+		<accessor attribute='' value="&quot;//a[contains(@href, '/r.php?locale=en_GB&amp;display=page')]&quot;" selected="false"/>
+		<accessor attribute='' value="&quot;//div[2]/a&quot;" selected="false"/>
+	</dialect>
+</step>
+
+
+
+<step action="setValue" value="&quot;abc&quot;" type="web" desc='' isThinkTime='false' isCommented='false' sequence="7">
+	<dialect type="sahi">
+		<accessor type="setValue" value="textbox(&quot;firstname&quot;)" selected="true"/>
+		<accessor type="setValue" value="textbox(&quot;u_0_h&quot;)" selected="false"/>
+		<accessor type="setValue" value="textbox(0)" selected="false"/>
+		<accessor type="setValue" value="textbox(&quot;inputtext _58mg _5dba _2ph-&quot;)" selected="false"/>
+	</dialect>
+	<dialect type="selenium">
+		<accessor attribute='' value="&quot;//input[@id='u_0_h']&quot;" selected="true"/>
+		<accessor attribute='' value="&quot;//div[@id='u_0_g']/input&quot;" selected="false"/>
+		<accessor attribute='' value="&quot;//div/input&quot;" selected="false"/>
+	</dialect>
+</step>
+
+
+
+<step action="setValue" value="&quot;def&quot;" type="web" desc='' isThinkTime='false' isCommented='false' sequence="8">
+	<dialect type="sahi">
+		<accessor type="setValue" value="textbox(&quot;lastname&quot;)" selected="true"/>
+		<accessor type="setValue" value="textbox(&quot;u_0_j&quot;)" selected="false"/>
+		<accessor type="setValue" value="textbox(1)" selected="false"/>
+		<accessor type="setValue" value="textbox(&quot;inputtext _58mg _5dba _2ph-[1]&quot;)" selected="false"/>
+	</dialect>
+	<dialect type="selenium">
+		<accessor attribute='' value="&quot;//input[@id='u_0_j']&quot;" selected="true"/>
+		<accessor attribute='' value="&quot;//div[@id='u_0_i']/div[1]/input&quot;" selected="false"/>
+		<accessor attribute='' value="&quot;//div[1]/div[1]/div[2]/div/div[1]/input&quot;" selected="false"/>
+	</dialect>
+</step>
+
+
+
+<step action="setValue" value="&quot;123454325123&quot;" type="web" desc='' isThinkTime='false' isCommented='false' sequence="9">
+	<dialect type="sahi">
+		<accessor type="setValue" value="textbox(&quot;reg_email__&quot;)" selected="true"/>
+		<accessor type="setValue" value="textbox(&quot;u_0_m&quot;)" selected="false"/>
+		<accessor type="setValue" value="textbox(2)" selected="false"/>
+		<accessor type="setValue" value="textbox(&quot;inputtext _58mg _5dba _2ph-[2]&quot;)" selected="false"/>
+	</dialect>
+	<dialect type="selenium">
+		<accessor attribute='' value="&quot;//input[@id='u_0_m']&quot;" selected="true"/>
+		<accessor attribute='' value="&quot;//div[@id='u_0_l']/div[1]/input&quot;" selected="false"/>
+		<accessor attribute='' value="&quot;//div[2]/div/div[1]/input&quot;" selected="false"/>
+	</dialect>
+</step>
+
+
+
+<step action="setValue" value="&quot;123456&quot;" type="web" desc='' isThinkTime='false' isCommented='false' sequence="10">
+	<dialect type="sahi">
+		<accessor type="setValue" value="password(&quot;reg_passwd__&quot;)" selected="true"/>
+		<accessor type="setValue" value="password(&quot;u_0_t&quot;)" selected="false"/>
+		<accessor type="setValue" value="password(1)" selected="false"/>
+		<accessor type="setValue" value="password(&quot;inputtext _58mg _5dba _2ph-&quot;)" selected="false"/>
+	</dialect>
+	<dialect type="selenium">
+		<accessor attribute='' value="&quot;//input[@id='u_0_t']&quot;" selected="true"/>
+		<accessor attribute='' value="&quot;//div[@id='u_0_s']/div[1]/input&quot;" selected="false"/>
+		<accessor attribute='' value="&quot;//div[5]/div/div[1]/input&quot;" selected="false"/>
+	</dialect>
+</step>
+
+
+
+<step action="click" value='' type="web" desc='' isThinkTime='false' isCommented='false' sequence="11">
+	<dialect type="sahi">
+		<accessor type="click" value="radio(&quot;u_0_8&quot;)" selected="true"/>
+		<accessor type="click" value="radio(&quot;sex[1]&quot;)" selected="false"/>
+		<accessor type="click" value="radio(&quot;2&quot;)" selected="false"/>
+		<accessor type="click" value="radio(1)" selected="false"/>
+	</dialect>
+	<dialect type="selenium">
+		<accessor attribute='' value="&quot;//input[@id='u_0_8']&quot;" selected="true"/>
+		<accessor attribute='' value="&quot;//span[@id='u_0_x']/span[2]/input&quot;" selected="false"/>
+		<accessor attribute='' value="&quot;//span[2]/input&quot;" selected="false"/>
+	</dialect>
+</step>
+
+
+</testcase>
