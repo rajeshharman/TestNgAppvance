@@ -62,24 +62,7 @@
 
 
 
-<step action="assertExists" value='' type="web" desc='' isThinkTime='false' isCommented='false' sequence="4">
-	<dialect type="sahi">
-		<accessor type="assertExists" value="div(&quot;The email address that you've entered doesn't match any account. Sign up for an account.&quot;)" selected="true"/>
-		<accessor type="assertExists" value="div(43)" selected="false"/>
-		<accessor type="assertExists" value="div(&quot;_4rbf _53ij&quot;)" selected="false"/>
-	</dialect>
-	<dialect type="selenium">
-		<accessor attribute='' value="&quot;//div[@id='globalContainer']/div[3]/div/div/div&quot;" selected="false"/>
-		<accessor attribute='' value="&quot;//div[3]/div[3]/div/div/div&quot;" selected="false"/>
-	</dialect>
-	<dialect type="flextesting">
-		<accessor type="assertExists" attribute='' value='' selected="false"/>
-	</dialect>
-</step>
-
-
-
-<step action="click" value='' type="web" desc='' isThinkTime='false' isCommented='false' sequence="5">
+<step action="click" value='' type="web" desc='' isThinkTime='false' isCommented='false' sequence="4">
 	<dialect type="sahi">
 		<accessor type="click" value="link(&quot;Sign up for Facebook&quot;)" selected="true"/>
 		<accessor type="click" value="link(&quot;reg-link&quot;)" selected="false"/>
@@ -96,7 +79,7 @@
 
 
 
-<step action="setValue" value="&quot;abc&quot;" type="web" desc='' isThinkTime='false' isCommented='false' sequence="6">
+<step action="setValue" value="&quot;abc&quot;" type="web" desc='' isThinkTime='false' isCommented='false' sequence="5">
 	<dialect type="sahi">
 		<accessor type="setValue" value="textbox(&quot;firstname&quot;)" selected="true"/>
 		<accessor type="setValue" value="textbox(&quot;u_0_h&quot;)" selected="false"/>
@@ -112,7 +95,7 @@
 
 
 
-<step action="setValue" value="&quot;def&quot;" type="web" desc='' isThinkTime='false' isCommented='false' sequence="7">
+<step action="setValue" value="&quot;def&quot;" type="web" desc='' isThinkTime='false' isCommented='false' sequence="6">
 	<dialect type="sahi">
 		<accessor type="setValue" value="textbox(&quot;lastname&quot;)" selected="true"/>
 		<accessor type="setValue" value="textbox(&quot;u_0_j&quot;)" selected="false"/>
@@ -128,7 +111,7 @@
 
 
 
-<step action="setValue" value="&quot;123454325123&quot;" type="web" desc='' isThinkTime='false' isCommented='false' sequence="8">
+<step action="setValue" value="&quot;123454325123&quot;" type="web" desc='' isThinkTime='false' isCommented='false' sequence="7">
 	<dialect type="sahi">
 		<accessor type="setValue" value="textbox(&quot;reg_email__&quot;)" selected="true"/>
 		<accessor type="setValue" value="textbox(&quot;u_0_m&quot;)" selected="false"/>
@@ -144,7 +127,7 @@
 
 
 
-<step action="setValue" value="&quot;123456&quot;" type="web" desc='' isThinkTime='false' isCommented='false' sequence="9">
+<step action="setValue" value="&quot;123456&quot;" type="web" desc='' isThinkTime='false' isCommented='false' sequence="8">
 	<dialect type="sahi">
 		<accessor type="setValue" value="password(&quot;reg_passwd__&quot;)" selected="true"/>
 		<accessor type="setValue" value="password(&quot;u_0_t&quot;)" selected="false"/>
@@ -160,7 +143,7 @@
 
 
 
-<step action="click" value='' type="web" desc='' isThinkTime='false' isCommented='false' sequence="10">
+<step action="click" value='' type="web" desc='' isThinkTime='false' isCommented='false' sequence="9">
 	<dialect type="sahi">
 		<accessor type="click" value="radio(&quot;u_0_8&quot;)" selected="true"/>
 		<accessor type="click" value="radio(&quot;sex[1]&quot;)" selected="false"/>
